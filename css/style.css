@@ -1,0 +1,31 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  align-self: center;
+  color: #333;
+  font-family: Gerogia;
+  font-size: 6em;
+}
+
+canvas {
+  background-image:
+		linear-gradient(to right bottom, rgba(255,255,255,0) 8px, #f8f8f8 9px, rgba(255,255,255,0) 10px),
+		linear-gradient(to left bottom, rgba(255,255,255,0) 8px, #f8f8f8 9px, rgba(255,255,255,0) 10px);
+  background-position: 0 0, 0 0, 0 20px;
+	background-repeat: repeat;
+	background-size: 12px 14px, 12px 14px, 12px 11px;
+  border: 1px solid #eee;
+  box-shadow: 6px 3px 3px #333;
+}
+
+button {
+  align-self: center;
+  font-size: .75em;
+  height: 30px;
+  min-width: 100px;
+}
