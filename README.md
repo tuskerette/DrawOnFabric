@@ -8,5 +8,4 @@ This is an exercise using Fabric.js, for fun.
 
 Lace background by: https://kukuruku.co/post/lace-patterns-in-css/
 
-
-[tuskerette.com](http://www.tuskerette.com)
+(tuskerette.com)[http://www.tuskerette.com]
