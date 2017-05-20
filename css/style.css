@@ -9,13 +9,13 @@ h1 {
   align-self: center;
   color: #333;
   font-family: Georgia;
-  font-size: 6em;
+  font-size: 2em;
 }
 
 canvas {
   background-image:
-		linear-gradient(to right bottom, rgba(255,255,255,0) 8px, #f8f8f8 9px, rgba(255,255,255,0) 10px),
-		linear-gradient(to left bottom, rgba(255,255,255,0) 8px, #f8f8f8 9px, rgba(255,255,255,0) 10px);
+		linear-gradient(to right bottom, rgba(255, 255, 255, .1) 8px, #f8f8f8 20px, rgba(255, 255, 255, .1) 20px),
+		linear-gradient(to left bottom, rgba(255, 255, 255, .1) 8px, #f8f8f8 20px, rgba(255, 255, 255, .1) 20px);
   background-position: 0 0, 0 0, 0 20px;
 	background-repeat: repeat;
 	background-size: 12px 14px, 12px 14px, 12px 11px;
@@ -28,4 +28,11 @@ button {
   font-size: .75em;
   height: 30px;
   min-width: 100px;
+}
+
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 5.8em;
+  }
 }

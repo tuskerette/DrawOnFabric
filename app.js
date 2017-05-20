@@ -8,5 +8,5 @@ canvas.selection = true;
 canvas.isDrawingMode = true;
 canvas.freeDrawingBrush = new fabric['PencilBrush'](canvas);
 canvas.freeDrawingBrush.color = 'Midnightblue';
-canvas.freeDrawingBrush.width = 10;
+canvas.freeDrawingBrush.width = 8;
 console.log(canvas.freeDrawingBrush);
