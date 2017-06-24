@@ -1,0 +1,26 @@
+{
+  "name": "drawonfabric",
+  "version": "1.0.0",
+  "description": "draw on a napkin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuskerette/DrawOnFabric.git"
+  },
+  "author": "valeria graffeo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuskerette/DrawOnFabric/issues"
+  },
+  "homepage": "https://github.com/tuskerette/DrawOnFabric#readme",
+  "dependencies": {
+    "canvas": "^1.6.5",
+    "fabric": "^1.7.13",
+    "jsdom": "^11.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
